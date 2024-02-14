@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url('../fonts/flexslider-icon.eot');
+  src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../fonts/flexslider-icon.woff') format('woff'), url('../fonts/flexslider-icon.ttf') format('truetype'), url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Jokerman';
+  src: url('../fonts/JOKERMAN.TTF');
+  src: url('../fonts/JOKERMAN.TTF?#iefix') format('embedded-opentype'), url('../fonts/JOKERMAN.TTF') format('woff'), url('../fonts/JOKERMAN.TTF') format('truetype'), url('../fonts/JOKERMAN.TTF#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Joker{
+    font-family: Jokerman;
+    text-indent: 10px;
+}
+#logo{
+    width: 10% !important;
+  }
+  .audio {
+        width: 100%;
+        height: 225px;
+        background: #808080; 
+        background-image: url(../img/Tiabela.JPG) !important; 
+        background-size: cover !important;  
+        background-position: center !important;     
+    }
+
+     
+    #navMen{
+       
+        text-transform: uppercase !important;
+        
+        
+    }
+    #navMen ul{
+        text-align: center !important;
+        float: right;
+        
+        width: 55%;
+    }
+    #navMen ul li{
+
+        border: 1px solid white !important;
+        font-weight: bold;
+        text-align: center !important;
+        
+    }
+    #navMen ul li:hover{
+        background-color: #30984d;
+        
+        
+        
+    }
+    #navMen #DropMenu li {
+       background-color: #30984d;
+     /*  margin-right: 25%; */
+       border: none;
+       text-align: center !important;
+     /*  width: 21vh; */
+       
+    }
+    #DropMenu{
+        background-color: rgba(48, 152, 77, 0);
+        text-align: center !important;
+        width: 100% !important;
+       
+    }
+    #DropMenu a{
+        color: #fff !important;
+        text-align: center !important;
+    }
+    #DropMenu a:hover{
+        
+        background-color: #121212;
+        text-align: center !important;
+        
+    }
+    #centro {
+
+        background-image: url(img/1.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 16px;
+        color: #fff;
+        font-weight: bold; 
+        
+        }
+        #dedo{
+          /* width: 50% !important; */
+            font-size: 25pt;
+          }
+        #paragrafo1, #paragrafo {
+                opacity: 1;
+            }
+            .menu-fixo{
+                position: fixed;
+                top: 0;
+                z-index: 999;
+                width: 100%;
+                
+            }
+            #centro1{
+                margin-left: auto;
+                margin-right: auto;
+              }
+              .text-dark{
+                cursor: none;
+              }
+        
+            @media (max-width: 768px) {
+                #flutuar {
+                    margin-left: 90%;
+                    margin-top: -51px;
+                    vertical-align: central;
+                }
+
+                #firstName{
+                    min-width: 30vh !important; 
+                  }
+                  #area{
+                    min-width: 30vh !important;
+                  }
+                
+              }
+              
+             
+    
+            @media (max-width: 668px) {
+        
+               
+                #MenUl{
+                    width: 100% !important;
+                }
+                
+              }

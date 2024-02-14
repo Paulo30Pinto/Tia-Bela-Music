@@ -1,0 +1,140 @@
+﻿body {
+}
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+        #centro {
+
+           background-image: url(img/1.jpg) !important;
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           border-radius: 16px;
+          color: #fff;
+           font-weight: bold; 
+           
+        }
+        /*.audio {
+            width: 100%;
+            height: 225px;
+            background: #808080; 
+            background-image: url(img/YY.jpg);
+            background-size: cover;    
+        }
+            */
+        .musica {
+            width: 100%;
+            margin-top: 0%;
+            height: 15px;
+            
+         
+        }
+        #paragrafo {
+            color: #fafafa !important;
+            font-weight: bold;
+            background-color: rgba(0,0,0,.6);
+            border-radius: 10px;
+        }
+        #paragrafo1 {
+            color: #fafafa !important;
+            font-weight: bold;
+            background-color: rgba(0,0,0,.4);
+            border-radius: 10px;
+        }
+        .social li{
+            padding: 1%;
+        }
+        #pic {
+            width: 10%;
+           /* height: 50%; */
+        }
+     
+             navMen{
+       
+        text-transform: uppercase !important;
+        
+    }
+    #navMen ul{
+        text-align: center;
+    }
+    #navMen ul li{
+        border: 1px solid white;
+        width: 55%;
+        float: right;
+        font-weight: bold;
+        
+    }
+    #navMen ul li:hover{
+        background-color: #30984d;
+        
+        
+    }
+    #navMen #newMenu li {
+      
+       margin-right: 25%;
+       border: none;
+       
+      
+       
+    }
+    #newMenu{
+        background-color: #30984d;
+        
+       
+    }
+    #newMenu a{
+        color: #fff !important;
+    }
+    #newMenu a:hover{
+        
+        background-color: #121212;
+    }
+       
+           
+         #paragrafo1, #paragrafo {
+            opacity: 0;
+        }
+        .Joker{
+            font-family: Jokerman;
+            text-indent: 10px;
+        }
+       .menu-fixo{
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+}
+       #scrol::-webkit-scrollbar {
+    display: none ;
+}
+#srol {
+    height: 50em;
+    overflow-y:  scroll;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+ .esonde{
+  
+    display: none !important;
+}
+      
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+        
+      }
+
+      @media (max-width: 768px) {
+        #flutuar {
+            margin-left: 90%;
+            margin-top: -51px;
+            vertical-align: central;
+        }
+        
+      }

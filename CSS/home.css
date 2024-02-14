@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Jokerman';
+  src: url('../fonts/JOKERMAN.TTF');
+  src: url('../fonts/JOKERMAN.TTF?#iefix') format('embedded-opentype'), url('../fonts/JOKERMAN.TTF') format('woff'), url('../fonts/JOKERMAN.TTF') format('truetype'), url('../fonts/JOKERMAN.TTF#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+    #centro {
+
+       background-image: url(../img/1.jpg) !important;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       border-radius: 16px;
+      color: #fff;
+       font-weight: bold; 
+       
+    }
+    .audio {
+        width: 100%;
+        height: 225px;
+        background: #808080; 
+        background-image: url(../img/TIABELAMUSIC.jpg); 
+        background-size: cover !important;  
+        background-position: center !important;    
+    }
+    .musica {
+        width: 100%;
+        margin-top: 0%;
+        height: 15px;
+       
+    }
+
+    #paragrafo {
+        color: #fafafa !important;
+        font-weight: bold;
+        background-color: rgba(0,0,0,.6);
+        border-radius: 10px;
+    }
+    #paragrafo1 {
+        color: #fafafa !important;
+        font-weight: bold;
+        background-color: rgba(0,0,0,.4);
+        border-radius: 10px;
+    }
+    .social li{
+        padding: 1%;
+    }
+    #linha{
+      width: 100% !important; 
+    }
+    #aviso{
+      transform: rotate(100deg) !important;
+      position: absolute;
+
+      
+    }
+    #aviso{
+
+      width:2rem;
+      height:2rem;
+      vertical-align:-.125em;
+      border-radius:50%;
+      -webkit-animation:.75s step-start infinite spinner-grow;
+      animation:.75s step-start infinite spinner-grow;
+    }
+
+    #logo{
+      width: 10% !important;
+    }
+    
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    #resultado{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    #aviso{
+
+      right: 11% !important;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    #aviso{
+      right: 15% !important;
+    }
+  }
+
+  @media (width: 1366px) {
+    #aviso{
+      right: 15% !important;
+    }
+  }
+  @media (width: 720px) {
+    #aviso{
+      right: 20% !important;
+    }
+  }
+
+  
+  
